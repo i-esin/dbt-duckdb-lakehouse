@@ -1,0 +1,10 @@
+jaffle_shop_analytics:
+  outputs:
+    dev:
+      type: duckdb
+      path: dev.duckdb
+      threads: 4
+      extensions:
+        - httpfs
+        - aws
+  target: dev

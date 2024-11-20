@@ -1,0 +1,7 @@
+refactoring_sql_for_modularity:
+  outputs:
+    dev:
+      type: duckdb
+      path: raw.duckdb
+      threads: 4
+  target: dev
